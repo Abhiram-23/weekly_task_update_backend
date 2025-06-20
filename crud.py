@@ -1,13 +1,13 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
-from backend.supabase_client import supabase
+from supabase_client import supabase
 from postgrest.exceptions import APIError
 from datetime import datetime, timedelta
 import os
 import httpx
 from fastapi import Body
-from backend.config import GEMINI_API_KEY
+from config import GEMINI_API_KEY
 import google.generativeai as genai
 import json
 from datetime import datetime

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status, Request
 from pydantic import BaseModel, EmailStr
-from backend.supabase_client import supabase
+from supabase_client import supabase
 from postgrest.exceptions import APIError
 
 router = APIRouter()
