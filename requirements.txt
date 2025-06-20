@@ -3,6 +3,6 @@ uvicorn
 supabase
 python-dotenv
 pydantic
-httpx 
-email_validator
-google
+httpx
+google-generativeai
+email-validator
